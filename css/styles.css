@@ -75,8 +75,45 @@ li {
     background: var(--primary-blue-100, #2C3878);
 }
 
+/** ---1. Hero section--- */
+/* .main {} */
+
+/* .hero {} */
+
+.hero-title {
+    color: var(--grayscale-50, #333);
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.hero-stats-list {
+    background: var(--primary-blue-100, #2C3878);
+    display: flex;
+    flex-direction: column;
+    width: 252px;
+}
+
+.hero-stats-li {}
+
+.hero-stats-li-title {
+    color: var(--grayscale-white, #FFF);
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.hero-stats-li-text {
+    color: var(--grayscale-white, #FFF);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.hero-rights {}
+
 /** ---2. About section--- */
-.about {}
+/* .about {}
 
 .container {}
 
@@ -92,4 +129,4 @@ li {
 
 .about-text {}
 
-.about-link {}
+.about-link {} */
