@@ -18,12 +18,34 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 a {
     text-decoration: none;
 }
 
 li {
     list-style-type: none;
+}
+
+img {
+    display: block;
 }
 
 /** ---Header--- */
@@ -44,11 +66,21 @@ li {
 }
 
 .navigation {
-    margin-right: 360px;
+    /* display: flex; */
+    border: 1px solid red;
+}
+
+.header-logo-menu-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 
 .nav-list {
     display: flex;
+    align-items: center;
+    gap: 74px;
+    border: 1px solid blue;
 }
 
 /* .nav-list-item {} */
@@ -73,6 +105,7 @@ li {
 
     border: 1px solid var(--grayscale-30, #3C3C3C);
     background: var(--primary-blue-100, #2C3878);
+    margin-left: 74px;
 }
 
 /** ---1. Hero section--- */
@@ -85,6 +118,7 @@ li {
     font-size: 72px;
     font-weight: 700;
     line-height: 1.4;
+    width: 681px;
 }
 
 .hero-stats-list {
